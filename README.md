@@ -10,7 +10,7 @@ Laplacian Edge Detection: Based on second-order derivatives, useful for finding 
 Gaussian Blur: Applied before edge detection to reduce noise, improving the accuracy of the edge detection process.
 Each step of the process, from loading and resizing the image to performing grayscale conversion, applying Gaussian blur, and detecting edges using both Canny and Laplacian methods, is visualized within the Jupyter Notebook.
 
-Steps Involved:
+# Steps Involved:
 Original Image Display: The input image is loaded and resized.
 Grayscale Conversion: The image is converted to grayscale, which simplifies the process of edge detection.
 Gaussian Blurring: The grayscale image is blurred to reduce noise and enhance edge detection.
