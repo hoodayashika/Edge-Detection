@@ -5,9 +5,10 @@ This project demonstrates the application of edge detection techniques on images
 
 In this project, we utilize the following edge detection methods:
 
-Canny Edge Detection: A multi-stage algorithm to detect a wide range of edges in images.
-Laplacian Edge Detection: Based on second-order derivatives, useful for finding regions with rapid intensity changes.
-Gaussian Blur: Applied before edge detection to reduce noise, improving the accuracy of the edge detection process.
+- Canny Edge Detection: A multi-stage algorithm to detect a wide range of edges in images.
+- Laplacian Edge Detection: Based on second-order derivatives, useful for finding regions with rapid intensity changes.
+- Gaussian Blur: Applied before edge detection to reduce noise, improving the accuracy of the edge detection process.
+
 Each step of the process, from loading and resizing the image to performing grayscale conversion, applying Gaussian blur, and detecting edges using both Canny and Laplacian methods, is visualized within the Jupyter Notebook.
 
 ### Steps Involved:
